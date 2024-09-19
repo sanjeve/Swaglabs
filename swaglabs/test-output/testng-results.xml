@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-18T09:00:09 IST" name="Suite" finished-at="2024-09-18T09:00:13 IST" duration-ms="4259">
+    <groups>
+    </groups>
+    <test started-at="2024-09-18T09:00:09 IST" name="Test" finished-at="2024-09-18T09:00:13 IST" duration-ms="4259">
+      <class name="test.Correctcred">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:test.Correctcred@5cc5b667]" started-at="2024-09-18T09:00:09 IST" name="beforeclass" finished-at="2024-09-18T09:00:09 IST" duration-ms="523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="testCorrectCredentials()[pri:4, instance:test.Correctcred@5cc5b667]" started-at="2024-09-18T09:00:11 IST" name="testCorrectCredentials" finished-at="2024-09-18T09:00:12 IST" duration-ms="505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCorrectCredentials -->
+      </class> <!-- test.Correctcred -->
+      <class name="test.Logout$Checkout">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:test.Logout$Checkout@41200e0c]" started-at="2024-09-18T09:00:09 IST" name="beforeclass" finished-at="2024-09-18T09:00:10 IST" duration-ms="957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="logout()[pri:11, instance:test.Logout$Checkout@41200e0c]" started-at="2024-09-18T09:00:12 IST" name="logout" finished-at="2024-09-18T09:00:13 IST" duration-ms="741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:test.Logout$Checkout@41200e0c]" started-at="2024-09-18T09:00:13 IST" name="teardown" finished-at="2024-09-18T09:00:13 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test.Logout$Checkout -->
+      <class name="test.Swag_wrngcred1">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:test.Swag_wrngcred1@6fa590ba]" started-at="2024-09-18T09:00:10 IST" name="beforeclass" finished-at="2024-09-18T09:00:11 IST" duration-ms="512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="testWrongCredentials()[pri:1, instance:test.Swag_wrngcred1@6fa590ba]" started-at="2024-09-18T09:00:11 IST" name="testWrongCredentials" finished-at="2024-09-18T09:00:11 IST" duration-ms="642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrongCredentials -->
+      </class> <!-- test.Swag_wrngcred1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
